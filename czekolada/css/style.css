@@ -1,0 +1,251 @@
+@font-face {
+  font-family: 'bonvenocflight';
+  src: url("BonvenoCF-Light-webfont.eot");
+  src: url("BonvenoCF-Light-webfont.eot?#iefix") format("embedded-opentype"), url("BonvenoCF-Light-webfont.woff") format("woff"), url("BonvenoCF-Light-webfont.ttf") format("truetype"), url("BonvenoCF-Light-webfont.svg#bonvenocflight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.grid-container {
+  width: 1000px;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px; }
+
+.col-1 {
+  width: 8.3%;
+  float: left; }
+
+.col-2 {
+  width: 16.6%;
+  float: left; }
+
+.col-3 {
+  width: 24.8%;
+  float: left; }
+
+.col-4 {
+  width: 33.4%;
+  float: left; }
+
+.col-6 {
+  width: 50%;
+  float: left; }
+
+.col-8 {
+  width: 66.6%;
+  float: left; }
+
+.col-9 {
+  width: 75%;
+  float: left; }
+
+.col-10 {
+  width: 83.3%;
+  float: left; }
+
+.row {
+  width: 100%;
+  display: block;
+  clear: both; }
+  .row:after {
+    content: "";
+    font-size: 5px;
+    display: table; }
+
+header {
+  width: 100%;
+  background-color: black;
+  height: 80px;
+  color: white; }
+  header::before {
+    content: "the best";
+    z-index: 3;
+    position: absolute;
+    top: 26px;
+    left: 368px;
+    text-transform: uppercase;
+    font-size: 12px; }
+  header::after {
+    font-size: 12px;
+    content: "in the world";
+    z-index: 4;
+    position: absolute;
+    top: 65px;
+    left: 415px;
+    text-transform: uppercase; }
+  header h1 {
+    margin-top: 25px;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px;
+    display: inline-block; }
+  header .word_o {
+    width: 18px;
+    height: 18px;
+    background-image: url(../img/word_o.png);
+    display: inline-block; }
+  header .nav {
+    float: right;
+    margin-top: 10px;
+    position: relative; }
+    header .nav .nav_menu {
+      padding-left: 0px;
+      margin-top: 40px;
+      margin-right: -15px;
+      font-size: 14px; }
+      header .nav .nav_menu li {
+        display: inline-block;
+        margin-right: 10px;
+        text-transform: uppercase; }
+        header .nav .nav_menu li:hover {
+          color: #45add8;
+          cursor: pointer; }
+  header .big_buble {
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: -5em;
+    left: 38em;
+    border-radius: 50%;
+    color: black; }
+    header .big_buble .tel {
+      position: absolute;
+      top: 89px;
+      left: 90px;
+      display: inline;
+      width: 133px;
+      font-size: 18px; }
+    header .big_buble .mail {
+      position: absolute;
+      top: 71px;
+      left: 76px;
+      display: inline;
+      width: 133px;
+      font-size: 15px; }
+    header .big_buble img {
+      position: absolute;
+      top: 100px;
+      left: 35px; }
+  header .buble_1 {
+    background-color: white;
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    top: 23px;
+    left: 871px;
+    border-radius: 50%; }
+  header .buble {
+    background-color: white;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 19px;
+    left: 910px;
+    border-radius: 50%; }
+  header .buble:last-of-type {
+    background-color: white;
+    top: 15px;
+    left: 944px;
+    width: 15px;
+    height: 15px; }
+
+section {
+  height: 190px;
+  background-image: url("../img/blue_krata.png");
+  background-repeat: round; }
+  section .content {
+    color: white;
+    overflow: visible; }
+    section .content h3 {
+      font-size: 26px; }
+  section .cup_coffe {
+    width: 353px;
+    background-size: 353px 179px;
+    position: relative;
+    height: 200px;
+    height: 179px;
+    background-image: url(../img/coffe.png);
+    top: 0px;
+    left: -28px; }
+
+nav .his_loc h3 {
+  font-size: 23px; }
+
+nav .his_loc img {
+  float: left;
+  margin-right: 20px; }
+
+nav .tags_title {
+  font-size: 23px;
+  color: #2e95aa; }
+
+nav .tags {
+  margin-left: 30px; }
+
+.black_content {
+  background-color: black;
+  color: white; }
+  .black_content .our_work_content h3 {
+    font-size: 26px;
+    margin-bottom: 0px;
+    margin-top: 10px; }
+  .black_content .our_work_content p {
+    font-size: 15px; }
+  .black_content .gallery {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 62px;
+    float: right;
+    margin-left: 40px;
+    margin-bottom: 30px; }
+    .black_content .gallery img {
+      width: 220px;
+      height: 200px;
+      margin: 0px 20px 20px 0px; }
+  .black_content .muffin_foto {
+    background-image: url("../img/muffin.png");
+    height: 307px;
+    background-repeat: no-repeat; }
+  .black_content .yummy {
+    text-align: right;
+    font-size: 23px;
+    margin-top: 55px; }
+  .black_content .yummy_text {
+    margin-left: 124px;
+    letter-spacing: 1px; }
+
+.white_content h3 {
+  font-size: 28px;
+  font-weight: 700; }
+
+.white_content p {
+  letter-spacing: 1px; }
+
+.white_content .fruit_foto {
+  background-image: url("../img/fruit.png");
+  width: 100%;
+  height: 300px;
+  background-position: 49% 340%;
+  background-repeat-x: no-repeat; }
+
+footer table {
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: 'bonvenocflight'; }
+  footer table .question {
+    width: 100px;
+    height: 45px;
+    color: #989797;
+    text-transform: uppercase; }
+  footer table .answer {
+    color: #ccc9c9; }
+
+footer p {
+  border-top: 1px solid #ccc9c9;
+  color: #ccc9c9;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 20px; }
